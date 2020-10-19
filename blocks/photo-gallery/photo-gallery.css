@@ -1,20 +1,20 @@
-@import url(./__list/photo-grid__list.css);
-@import url(./__item/photo-grid__item.css);
+@import url(./__grid/photo-gallery__grid.css);
+@import url(./__image/photo-gallery__image.css);
 
-.photo-grid {
+.photo-gallery {
   padding: 64px 0 0 0;
   display: flex;
   justify-content: center;
 }
 
 @media screen and (min-width: 768px) {
-  .photo-grid {
+  .photo-gallery {
     padding-top: 88px;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  .photo-grid {
+  .photo-gallery {
     padding-top: 92px;
   }
 }
