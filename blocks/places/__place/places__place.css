@@ -1,0 +1,17 @@
+/* following BEM convention to add margin to a block
+  so now "place" is both an an element and a block */
+.places__place {
+  margin: 0 0 48px 0;
+}
+  
+@media screen and (min-width: 768px) {
+  .places__place {
+    margin-bottom: 72px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .places__place {
+    margin-bottom: 80px;
+  }
+}

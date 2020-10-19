@@ -1,0 +1,13 @@
+.place__website {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .place__website {
+    display: block;
+    
+    grid-area: place__website;
+    align-self: end;
+    /* so that it is at the bottom to align with the design spec for wider screen sizes*/
+  }
+}

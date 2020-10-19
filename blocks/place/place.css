@@ -1,0 +1,48 @@
+@import url(./__title/place__title.css);
+@import url(./__image/place__image.css);
+@import url(./__website/place__website.css);
+@import url(./__url-heading/place__url-heading.css);
+@import url(./__link/place__link.css);
+@import url(./__text-container/place__text-container.css);
+@import url(./__paragraph/place__paragraph.css);
+
+.place {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  color: white;
+}
+
+@media screen and (min-width: 768px) {
+  .place {
+    width: calc(100% - (2 * 24px));
+    
+    display: grid;
+    grid-template-columns: 340fr 352fr;
+    grid-template-areas: 
+    'place__title place__website'
+    'place__image place__text-container';
+    grid-gap: 48px 28px;
+    align-items: normal;
+    /* setting this back to its regular value since it was changed using flexbox layout*/
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .place {
+    width: calc(100% - (2 * 48px));
+
+    grid-template-columns: 440fr 456fr;
+    grid-gap: 48px 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .place {
+    width: calc(100% - (2 * 148px));
+
+    grid-template-columns: 460fr 484fr;
+    grid-gap: 48px 40px;
+  }
+}

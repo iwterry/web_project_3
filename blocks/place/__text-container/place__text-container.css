@@ -1,0 +1,11 @@
+.place__text-container {
+  width: calc(100% - 32px);
+}
+
+@media screen and (min-width: 768px) {
+  .place__text-container {
+    width: 100%;
+    /* setting this back so that it takes all the width it can */
+    grid-area: place__text-container;
+  }
+}
