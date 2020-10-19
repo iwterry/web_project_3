@@ -1,5 +1,5 @@
 .lead__image-container {
-  width: 320px;
+  width: 100%;
   margin: 40px 0 0 0;
 }
 
@@ -12,13 +12,13 @@
 
 @media screen and (min-width: 1024px) {
   .lead__image-container {
-    width: 928px;
+    width: calc(100% - (2 * 48px));
   }
 }
 
 @media screen and (min-width: 1280px) {
   .lead__image-container{
-    width: 984px;
+    width: calc(100% - (2 * 148px));
     margin-top: 64px;
   }
 }
