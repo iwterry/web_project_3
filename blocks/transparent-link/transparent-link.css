@@ -1,0 +1,4 @@
+/* helper block */
+.transparent-link:hover {
+  opacity: 0.8;
+}
