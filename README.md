@@ -1,20 +1,29 @@
 # Project 3: From Portland to Portland
 
 ### Overview
-* Intro
-* Figma
-* Images
+* Description of the project and its functionality
+* Description of technologies and techniques used.
+* Links
 
-**Intro**
+**Description of the project and its functionality**
 
-This is a project about traveling across the US. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.
+This is a project about traveling across the US. It displays information abut traveling to
+different places in the U.S.
 
-**Figma**
+**Description of technologies and techniques used**
 
-* [Link to the project on Figma](https://www.figma.com/file/xM9rNsdK4iNcFJmDZho3Aw/Sprint-3%3A-From-Portland-to-Portland-%2F-desktop-%2B-mobile?node-id=500%3A0)
+* BEM methodology
+* Absolute positioning
+* CSS responsive layouts
+  * CSS Flexbox Layout
+  * CSS Grid Layout
+* CSS relative units
+  * percentages, em, and fr
+* CSS calc function
+* Setting max-width for text elements instead of fixed widths
+* Compressing images
 
-**Images**
+**Links**
 
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-
-Good luck and have fun!
+* [Link to the project specification on Figma](https://www.figma.com/file/xM9rNsdK4iNcFJmDZho3Aw/Sprint-3%3A-From-Portland-to-Portland-%2F-desktop-%2B-mobile?node-id=500%3A0)
+* [Link to my implementation on GitHub Pages](https://iwterry.github.io/web_project_3/index.html)
