@@ -1,5 +1,5 @@
 .lead__title {
-  width: calc(100% - (2 * 16px));
+  max-width: calc(100% - (2 * 16px));
   margin: 0;
 
   font-style: normal;
@@ -12,7 +12,7 @@
 
 @media screen and (min-width: 768px) {
   .lead__title {
-    width: calc(100% - (2 * 24px));
+    max-width: calc(100% - (2 * 24px));
 
     font-size: 96px;
     line-height: 1.04;
@@ -21,7 +21,7 @@
 
 @media screen and (min-width: 1024px) {
   .lead__title {
-    width: calc(100% - (2 * 152px));
+    max-width: calc(100% - (2 * 152px));
 
     font-size: 96px;
     line-height: 1.04;
@@ -30,7 +30,7 @@
 
 @media screen and (min-width: 1280px) {
   .lead__title {
-    width: calc(100% - (2 * 280px));
+    max-width: calc(100% - (2 * 280px));
 
     font-size: 96px;
     line-height: 1.04;
