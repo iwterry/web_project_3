@@ -1,0 +1,29 @@
+@import url(./__links/footer__links.css);
+@import url(./__link-item/footer__link-item.css);
+@import url(./__link/footer__link.css);
+@import url(./__copyright/footer__copyright.css);
+
+.footer {
+  padding: 64px 0 24px 16px;
+
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding-top: 88px;
+    padding-left: 24px;
+    padding-right: 24px;
+
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .footer {
+    padding-top: 92px;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+}
