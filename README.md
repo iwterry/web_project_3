@@ -22,6 +22,7 @@ different places in the U.S.
 * CSS calc function
 * Setting max-width for text elements instead of fixed widths
 * Compressing images
+* Deploy using GitHub Pages
 
 **Links**
 
