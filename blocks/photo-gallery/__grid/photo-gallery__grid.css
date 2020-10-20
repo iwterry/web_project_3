@@ -1,9 +1,13 @@
 .photo-gallery__grid {
   width: calc(100% - (2 * 16px));
+  margin: 0;
+  padding: 0;
 
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 12px 0;
+
+  list-style: none;
 }
 
 @media screen and (min-width: 768px) {
