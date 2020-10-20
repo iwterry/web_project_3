@@ -1,37 +1,9 @@
+@import url(./__content/cover__content.css);
 @import url(./__title/cover__title.css);
 @import url(./__subtitle/cover__subtitle.css);
 @import url(./__overlay/cover__overlay.css);
 
 .cover {
-  min-height: 200px;
-  position: relative;
-
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  
-  background-image: url(../../images/cover-route-66.jpg);
-  background-size: cover;
-  background-position: center;
-
-  color: #fff;
-}
-
-@media screen and (min-width: 768px) {
-  .cover {
-    min-height: 480px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .cover {
-    min-height: 640px;
-  }
-}
-
-@media screen and (min-width: 1280px) {
-  .cover {
-    min-height: 740px;
-  }
 }

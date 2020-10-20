@@ -1,0 +1,35 @@
+.cover__content {
+  width: 100%;
+  min-height: 200px;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  background-image: url(../../../images/cover-route-66.jpg);
+  background-size: cover;
+  background-position: center;
+
+  color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+  .cover__content {
+    min-height: 480px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .cover__content {
+    min-height: 640px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover__content {
+    min-height: 740px;
+    width: calc(100% - (2 * 48px));
+  }
+}
