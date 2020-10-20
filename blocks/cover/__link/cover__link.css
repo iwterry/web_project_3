@@ -33,7 +33,7 @@
 
 /* when ever the .cover__link is hovered upon, this fake element will change its opacity */
 .cover__link:hover::after {
-  /*opacity: 0.8;*/
+  opacity: 0.8;
 }
 
 @media screen and (min-width: 768px) {
