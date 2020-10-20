@@ -253,16 +253,24 @@
 
         <section class="cover">
           <div class="cover__content">
-            <h2 class="cover__title">Historic Route 66</h2>
+            <h2 class="cover__title">
+              Historic
+              <a 
+                href="https://www.nps.gov/nr/travel/route66/maps66.html"
+                target="_blank"
+                class="cover__link transparent-link"
+               >
+                Route 66
+              </a> 
+              <!-- 
+                the design spec did not specify exactly where to place the link;
+                the design spec had the text Route 66 associated with the link, 
+                so I am choosing it.
+              -->
+            </h2>
             <p class="cover__subtitle">
               The Main Street of America from Santa Monica, Cal. to Chicago, Ill. within an iframe
             </p>
-            <a
-              href="https://www.nps.gov/nr/travel/route66/maps66.html" 
-              target="_blank" 
-              class="cover__overlay transparent-link"
-            >
-            </a>
           </div>
         </section>
       </main>
@@ -281,8 +289,7 @@
               </a>
             </li>
             <li class="footer__link-item">
-              <a
-                href="https://calendar.yandex.ru" target="_blank" class="footer__link transparent-link">
+              <a href="https://calendar.yandex.ru" target="_blank" class="footer__link transparent-link">
                 Calendar
               </a>
             </li>
